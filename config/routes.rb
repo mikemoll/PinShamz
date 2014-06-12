@@ -1,4 +1,6 @@
 Pinshambz::Application.routes.draw do
+  resources :jobs
+
   resources :pins
 
   devise_for :users
